@@ -1,0 +1,4 @@
+##
+var n:=ReadInteger(‘Введите число>>’);
+var ans:= n mod 2=0;
+Println('Число ', n, 'является четным – ', ans)
