@@ -1,0 +1,5 @@
+##
+var a:= ReadChar('Введите символ/букву>> ');
+var b:= Chr(Ord(a)-1) + a + Chr(Ord(a)+1);
+Println((Ord(a)-1),(Ord(a)),(Ord(a)+1));
+Println('Строка: ', b)
