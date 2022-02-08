@@ -1,0 +1,6 @@
+##
+Println(‘Исследование функций round, int, frac’);
+var x:= ReadlnReal(‘Введите x>>’);
+Println(‘Округление – ‘, Round(x));
+Println('Целая часть – ', Int(x));
+Println('Дробная часть – ', Frac(x))
