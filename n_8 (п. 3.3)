@@ -1,0 +1,6 @@
+##
+Println('Исследование функции random');
+var x:= ReadInteger('Введите х>>');
+var n:= ReadlnInteger(‘Введите n>>’);
+Println(‘random(‘,x,’)=’, Random(x));
+Println(‘random(‘,x,’)+’,n, ‘=’, Random(x)+n)
