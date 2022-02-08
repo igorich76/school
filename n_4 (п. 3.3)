@@ -1,0 +1,8 @@
+##
+Println('Нахождение суммы цифр трёхзначного числа');
+var x:=ReadlnInteger(‘Введите x>>’);
+var a:= x div 100;
+var b:= x mod 100 div 10;
+var c:= x mod 10;
+var s:=a+b+c;
+Println('s = ', s)
