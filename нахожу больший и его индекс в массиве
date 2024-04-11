@@ -1,0 +1,11 @@
+##
+var t := |25,65,11|;
+
+var (maxi,maxind) := (t[0],0);
+for var i:=0 to t.Length-1 do
+  if t[i] > maxi then 
+    begin
+      maxi := t[i];
+      maxind := i;
+    end;
+Print(maxi,maxind);
